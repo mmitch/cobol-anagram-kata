@@ -11,3 +11,7 @@ Needs GNU cobol (`cobc`) installed
 
 Run `make` to build and run the tests.
 Of course they currently fail, and it is your job to fix them :-)
+
+If you have `inotify-wait` from the _inotify-tools_, you can run `make
+autotest` and the tests will automatically re-run every time you
+change any file.
