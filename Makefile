@@ -44,6 +44,7 @@ build:
 
 clean:
 	$(MAKE) -C $(BUILDROOT) $@
+	rm -f *~
 
 test:
 	$(MAKE) -C $(BUILDROOT) $@
