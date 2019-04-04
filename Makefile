@@ -55,3 +55,7 @@ autotest:
 update-cobol-build:
 	cd $(BUILDROOT) && git pull origin master
 	git commit $(BUILDROOT) -e -m 'update cobol-build'
+
+init-cobol-build:
+	git submodule init
+	git submodule update
